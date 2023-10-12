@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "zdravapokozka",
+    "slug": "zdravapokozka",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "dark",
+    "jsEngine": "jsc",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fiuipko.zdravapokozka"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.fiuipko.zdravapokozka"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0eb1b00-64f7-43d7-becc-5439ed69f692"
+      }
+    },
+    "owner": "fiuipko"
+  }
+}
